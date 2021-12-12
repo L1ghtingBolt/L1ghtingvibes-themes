@@ -1,0 +1,171 @@
+a,
+a:hover {
+  color: #91b4d5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#app-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+body {
+  padding: 20px;
+}
+
+input[type="file"] {
+  display: none;
+  text-align: center;
+  margin: auto;
+}
+.custom-file-upload {
+  border: 1px solid #91b4d5;
+  border-radius: 4px;
+  background: #5c7da5;
+  display: flex;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #b8d3ec;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+#keyboard-volume-value-display{
+  font-weight: bold; color:#91b4d5
+}
+
+#mouse-volume-value-display{
+  font-weight: bold; color:#91b4d5
+}
+
+body{
+  padding: 2rem; 
+  background-color:#212b42;
+}
+
+#mousepack-list{
+  width: 100%;
+  margin-right: 10px;
+  background-color: #5c7da5; 
+  color:#ffffff;
+}
+
+#keyboardpack-list{
+  width: 100%;
+  margin-right: 10px;
+  background-color: #5c7da5;
+  color:#ffffff;
+}
+
+
+#logo {
+  font-family: sans-serif;
+  transition: all 0.1s ease;
+  box-shadow: 0 2px #91b4d5;
+  font-size: 3rem;
+  font-weight: 600;
+  background: #5c7da5;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 2px solid #91b4d5;
+  padding: 1rem 2rem;
+  color: #91b4d5;
+}
+
+#logo.pressed {
+  box-shadow: 0 0;
+  margin-bottom: -2px;
+  margin-top: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#update-available {
+  padding: 8px 5px;
+  border: 1px solid #a8ffd6;
+  background: #161616;
+  border-radius: 5px;
+}
+
+#soundpack-bug {
+  padding: 8px 5px;
+  border: 1px solid #b5b682;
+  background: #161616;
+  border-radius: 5px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #5c7da5;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 20px;
+  /* Set a specific slider handle width */
+  height: 20px;
+  /* Slider handle height */
+  background: #1E1EB3;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  /* Set a specific slider handle width */
+  height: 20px;
+  /* Slider handle height */
+  background: #1E1EB3;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+  border-radius: 50%;
+}
+
+table tr td {
+  border-bottom: 0;
+}
+
+table {
+  margin-bottom: 0;
+}
